@@ -18,6 +18,7 @@ export const changeStringCase = (string, stringCase) => {
  * @param {number[]} array
  * @returns {number}
  */
+
 export const sumOfArray = (array) => {
   return array.reduce((accumulator, currentValue) => {
     if (typeof currentValue === 'number') {
